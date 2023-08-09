@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(./img/brgr.1.jpg);
+    background-position:center;
+    background-size: cover;
+   max-width: 100%;
+    height: 100vh;
+}
+.navbar-dark .navbar-brand{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Pacifico', sans-serif;
+    margin-left: -4rem;
+    margin-top: -1rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 20px;
+    padding: 0rem  1.8rem;
+}
+.navbar-dark .navbar-nav .icon-1{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 5rem;
+}
+.navbar-dark .navbar-nav .icon-1 .fas{
+    padding: 0.5rem;
+}
+.navbar-dark .navbar-nav .btn{
+    margin-left: 5rem;
+    border-radius: 20px;
+    color: #fff;
+    padding: 0.3rem 1.5rem;
+    outline: none;
+}
+.navbar-dark .navbar-nav .icon-1 .fas:hover{
+    color: yellow;
+}
+.sec-1 .slide{
+    color: #fff;
+    margin-top: 10rem;
+    width: 80%;
+    min-height: 80%;
+}
+.sec-1 .slide .carousel-inner h2{
+    font-family: 'Pacifico', sans-serif;
+   
+}
+.sec-1 .slide .btn1{
+    border-radius: 20px;
+    color: #fff;
+    padding: 0.3rem 1.5rem;
+    outline: none;
+    margin-top: 3rem;
+}
+.indicator{
+    position: relative;
+margin-top: 6rem;
+margin-left: -50rem;
+}
+.carousel-indicators{
+    align-items: center;
+}
+.carousel-indicators li{
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    opacity: 1;
+}
+.carousel-indicators li.active{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+}
+.sec-2{
+    box-sizing: border-box;
+width: 100%;
+padding-top: 44px;
+}
+.sec-row1{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    column-gap: 10rem;
+}
+.col{
+    background-color: #222831;
+}
+.sec-col2 h3{
+    font-family: 'Pacifico', sans-serif;
+    color: #fff;
+    padding-top: 25px;
+}
+.sec-col2 span{
+    color: #fff;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 30px;
+}
+.sec-col2 .btn{
+    border-radius: 20px;
+    color: #fff;
+    padding: 0.3rem 1.5rem;
+    outline: none;
+    margin-top: 1rem;
+}
+.sec-col2 .img1{
+    display: block;
+}
+.img1  img:hover{
+   transform: scale(1.1);
+}
+.geeks {
+    overflow: hidden;
+    border-radius:100px; 
+    overflow: hidden;
+    margin-top: 0.5rem;
+    border: 4px solid rgba(255, 210, 8, 0.753);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.geeks img {
+    width: 100%;
+    transition: 0.5s;
+    border-radius:100%; 
+height: 100%;
+}
+
+.geeks img:hover  {
+    transform: scale(1.5);
+}
+.sec-3 .filters_menu {
+   cursor: pointer;
+   display: flex;
+    align-items: center; 
+}
+.nav1{
+padding: 0 1.5rem;
+margin-top: 3rem;
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 2rem;
+}
+.card img{
+    transition: 0.3s;
+}
+
+.card img:hover{
+transform: scale(1.1);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff;
+    background-color: #333;
+}
+.nav-pills .nav-link{
+    color:#333;
+    font-size: 20px;
+}
+form .form-group{
+    margin-top: 2rem;
+}
+.sec-5 .cl1 img{
+    position: relative;
+    border: 7px solid #ffbe33;
+    z-index: 1;
+    cursor: progress;
+}
+.pointer{
+    display: block;
+    width: 30px;
+    height: 25px;
+    border: 1px solid transparent;
+    border-top-color: #ffbe33;
+    border-left-color: #ffbe33;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    transform: rotate(35deg);
+    background: #ffbe33;
+  }
+  .carousel-inner .active{
+      transition: 0.4s;
+
+  }
+  .round {
+    border-radius: 50%;
+  }
+  
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .previous{
+    background-color: #ffbe33;
+    color: white;
+   padding: 1rem;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .next{
+    background-color: #ffbe33;
+    color: white;
+   padding: 1rem;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btnn{
+      text-align: center;
+      margin-bottom: 4rem;
+  }
+  ul li{
+      padding-bottom: 1rem;
+  }
+  ul li:hover{
+   color:#ffbe33 ;
+}
+  .icn .fab{
+padding: 10px;
+font-size: 20px;
+background: #fff;
+color: #000;
+border-radius: 50%;
+cursor:pointer;
+  }
+  .icn .fab:hover{
+      color:#ffbe33;
+  }
